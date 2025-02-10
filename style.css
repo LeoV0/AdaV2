@@ -1,0 +1,27 @@
+/*
+
+Faire en sorte que l’image ait un bord arrondi
+
+Ajouter une bordure hotpink de 5px à l’image */
+
+body{
+    background-color: pink;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+}
+
+h1, p{
+    color: hotpink;
+}
+
+ul > li{
+    color: hotpink;
+}
+
+
+img{
+    width: 350px;
+    border-radius: 50%;
+    border: 5px solid;
+    border-color: hotpink;
+}
